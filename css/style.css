@@ -74,12 +74,18 @@ a:active {
   height: 100vh;
   position: relative;
   background-color: #008000;
+  color: #ffff00;
+  font-size: 55px;
+  text-align: center;
 }
 
 .section3 {
   height: 100vh;
   position: relative;
   background-color: #ffff00;
+  color: green;
+  font-size: 55px;
+  text-align: center;
 }
 
 img {
