@@ -48,17 +48,17 @@ li:hover {
   cursor: pointer;
 }
 
-a:link {
+#nav-link:link {
   text-decoration: none;
   color: black;
 }
 
-a:visited {
+#nav-link:visited {
   text-decoration: none;
   color: black;
 }
 
-a:active {
+#nav-link:active {
   text-decoration: none;
   color: black;
 }
