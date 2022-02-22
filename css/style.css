@@ -3,11 +3,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+html {
   font-family: "Rubik Mono One", sans-serif;
-  font-family: "Shizuru", cursive;
-  scroll-behavior: auto;
-  text-transform: uppercase;
-  font-weight: bold;
 }
 
 .clearfix::after {
@@ -16,30 +14,82 @@
   clear: both;
 }
 
-.container {
+header {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
 }
 
+nav {
+  color: black;
+}
+
+ul {
+  display: inline-block;
+  float: right;
+  list-style: none;
+  padding: 20px;
+}
+
+li {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: white;
+  text-align: center;
+  line-height: 60px;
+  margin-left: 5px;
+}
+
+/*a:link {
+  text-decoration: none;
+  color: grey;
+}
+
+a:visited {
+  text-decoration: none;
+  color: grey;
+}
+
+a:hover {
+  text-decoration: none;
+  text-shadow: 0px 0px 4px #ffc5f7f1;
+}
+
+a:active {
+  text-decoration: none;
+}*/
+
 .section1 {
-  height: 150vh;
+  height: 100vh;
   position: relative;
   background-color: #ff0000;
   color: #ffff00;
-  font-size: 45px;
+  font-size: 55px;
+  text-align: center;
 }
 
 .section2 {
-  height: 150vh;
+  height: 100vh;
   position: relative;
   background-color: #008000;
 }
 
 .section3 {
-  height: 150vh;
+  height: 100vh;
   position: relative;
   background-color: #ffff00;
 }
 
-.shoe {
+img {
   max-width: 100%;
+}
+
+.shoe {
   position: absolute;
+  width: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
