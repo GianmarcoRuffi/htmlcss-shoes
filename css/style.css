@@ -42,26 +42,28 @@ li {
   margin-left: 5px;
 }
 
-/*a:link {
+li:hover {
   text-decoration: none;
-  color: grey;
+  text-shadow: 0px 0px 10px #03118d;
+  cursor: pointer;
 }
 
-a:visited {
+li:link {
   text-decoration: none;
-  color: grey;
+  color: black;
 }
 
-a:hover {
+li:visited {
   text-decoration: none;
-  text-shadow: 0px 0px 4px #ffc5f7f1;
+  color: black;
 }
 
-a:active {
+li:active {
   text-decoration: none;
-}*/
+  color: black;
+}
 
-.section1 {
+#section1 {
   height: 100vh;
   position: relative;
   background-color: #ff0000;
@@ -70,7 +72,7 @@ a:active {
   text-align: center;
 }
 
-.section2 {
+#section2 {
   height: 100vh;
   position: relative;
   background-color: #008000;
@@ -79,7 +81,7 @@ a:active {
   text-align: center;
 }
 
-.section3 {
+#section3 {
   height: 100vh;
   position: relative;
   background-color: #ffff00;
