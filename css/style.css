@@ -5,6 +5,9 @@
   box-sizing: border-box;
   font-family: "Rubik Mono One", sans-serif;
   font-family: "Shizuru", cursive;
+  scroll-behavior: auto;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .clearfix::after {
@@ -13,4 +16,30 @@
   clear: both;
 }
 
-.container
+.container {
+}
+
+.section1 {
+  height: 150vh;
+  position: relative;
+  background-color: #ff0000;
+  color: #ffff00;
+  font-size: 45px;
+}
+
+.section2 {
+  height: 150vh;
+  position: relative;
+  background-color: #008000;
+}
+
+.section3 {
+  height: 150vh;
+  position: relative;
+  background-color: #ffff00;
+}
+
+.shoe {
+  max-width: 100%;
+  position: absolute;
+}
