@@ -4,8 +4,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 html {
   font-family: "Rubik Mono One", sans-serif;
+  scroll-behavior: smooth;
 }
 
 .clearfix::after {
